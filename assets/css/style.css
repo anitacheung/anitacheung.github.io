@@ -28,7 +28,7 @@
     }
     
     .emphasis {
-        color: #b50210;
+        color: #028A0F;
     }
     /* Topbar */
     
@@ -72,7 +72,7 @@
     
     .topnav a.active {
         background-color: white;
-        color: #b50210;
+        color: #028A0F;
     }
     
     .topnav .icon {
@@ -114,6 +114,16 @@
     
     img {
         width: 100%;
+    }
+    
+    .name {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    #description {
+        margin-left: 10%;
+        margin-right: 10%;
     }
     /* Card */
     
@@ -220,11 +230,11 @@
     }
     
     input[type=submit]:hover {
-        background-color: #b50210;
+        background-color: #028A0F;
     }
     
     input[type=reset]:hover {
-        background-color: #b50210;
+        background-color: #028A0F;
     }
     /* Buttons */
     
@@ -260,7 +270,7 @@
     .cursor {
         width: 20px;
         height: 20px;
-        border: 6px solid #b50210;
+        border: 6px solid #028A0F;
         opacity: 0.5;
         border-radius: 50%;
         position: absolute;
@@ -283,7 +293,7 @@
     }
     
     .expand {
-        border: 6px solid #b50210;
+        border: 6px solid #028A0F;
         transition-timing-function: ease-out;
         animation: cursorAnimClick 2s forwards;
     }
